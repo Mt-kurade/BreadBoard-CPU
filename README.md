@@ -1,10 +1,10 @@
 # BreadBoard-CPU
 
 
-### 4-bit ALU 
+## 4-bit ALU 
 To build the the 4-bit ALU, its imporant to understand the working of a 1 bit ALU
 
-#### 1-bit ALU 
+### 1-bit ALU 
 There are 4 main inputs, 4 gates and a multiplexer that are important. 
 
 The first two inputs are the user number inputs (X, Y), these are the numbers that will have the operations conducted apon 
