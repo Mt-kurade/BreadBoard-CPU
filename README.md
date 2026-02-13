@@ -7,7 +7,7 @@ To build the the 4-bit ALU, its imporant to understand the working of a 1 bit AL
 ### 1-bit ALU 
 There are 4 main inputs, 4 gates and a multiplexer that are important. 
 <p align = "center">
-  <img width="600" alt="1 bit calculator diagram" src="https://github.com/user-attachments/assets/a8b8225e-bd91-4af6-ad55-ebf3cb20f3aa" />
+  <img width="600" alt="Schematic Diagram fo 1 bit ALU" src="https://github.com/user-attachments/assets/a8b8225e-bd91-4af6-ad55-ebf3cb20f3aa" />
 </p>
 
 
