@@ -1,11 +1,15 @@
 # BreadBoard-CPU
-
+---
 
 ## 4-bit ALU 
 To build the the 4-bit ALU, its imporant to understand the working of a 1 bit ALU
 
 ### 1-bit ALU 
 There are 4 main inputs, 4 gates and a multiplexer that are important. 
+<p align = "center">
+  <img width="600" alt="1 bit calculator diagram" src="https://github.com/user-attachments/assets/a8b8225e-bd91-4af6-ad55-ebf3cb20f3aa" />
+</p>
+
 
 The first two inputs are the user number inputs (X, Y), these are the numbers that will have the operations conducted apon 
 The last two inputs are also input by the user but processed by the computer to be the operand that will be executed on the input bits X and Y. These are called the S0 and S1 inputs. These decide the mathematical operations (AND, OR, XOR, NOT). 
