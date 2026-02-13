@@ -19,3 +19,8 @@ The 4 gates (AND, OR, XOR, NOT) do the calculations for the two input bits (X, Y
 The Multiplexer (or MUX) simply selects which of the results from the calculations outside the MUX will be output to the user based on the S1 and S2 input for mathematical operation. This selected value by the MUX will become the output (Y). 
 
 The gates outside the multiplexer perform different logical operatiosn on A and B simultaneously. Their outputs are connected to the MUX, which selects one results accoridng to the control inputs (S0 and S1)
+
+
+
+Now, when the number of bits increase, there are more possible combinations and possible operations that can be done. Matching the resu
+t to the user input will remain the role of the MUX. However, for 4 bits, the value of S will range from 0 to 3 to account for different operations. 
