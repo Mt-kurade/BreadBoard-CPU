@@ -74,3 +74,10 @@ R = A OR B
 ## 1. ALU Input design 
 The complete input processing design for the 4-bit ALU is as below. 
 ![alt text](image-4.png)
+
+## 2. ALU MUX design 
+A 4-operation ALU will need a 4-to-1 multiplexer per bit. 
+
+The control lines are 
+1. S0 
+2. S1
