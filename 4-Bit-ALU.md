@@ -34,6 +34,9 @@ from the above example, you can see that the design is able to execute binary ad
 
 #### 4-bit Subtractor (Arithmetic operation of subtraction)
 
+![](image-1.png) (Built using Circuit verse)
+
+
 
 #### 4-bit AND operator 
 
