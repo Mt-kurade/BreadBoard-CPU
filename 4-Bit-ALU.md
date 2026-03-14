@@ -25,7 +25,9 @@ The gates outside the multiplexer perform different logical operatiosn on A and 
 ## 4-bit ALU 
 Now that an understanding of the relative functionality of a 1-bit ALU is established, its time to diverge into understanding the building and functionality of 4-bit ALU. For this specific ALU design, there are two logical bitwise operators (AND, OR), and two arithemtic operators (Addition and Substraction).
 
-#### 4-Bit adder (Arithmetic operation of addition)
+## Arithmetic operations
+
+### 4-Bit adder (Arithmetic operation of addition)
 An adder adds elements bitwise, however the carry function that can be seen in decimal addition is applied here. The sum and difference are two outputs of each operation. 
 
 Building the 4-bit adder is a combination of 1 half adder, and 3 full adders.
@@ -35,14 +37,36 @@ Building the 4-bit adder is a combination of 1 half adder, and 3 full adders.
 from the above example, you can see that the design is able to execute binary addition. 
 0110 (6) + 1000 (8) = 1110 (14) 
 
-#### 4-bit Subtractor (Arithmetic operation of subtraction)
+### 4-bit Subtractor (Arithmetic operation of subtraction)
 Building the 4-bit subtractor, it was a combination of 1 half subtractor, and 3 full subtractors. 
 ![alt text](image-2.png) (Built using Circuit verse)
 
 From the above diagram, you can see the subtractor is working. The numbers:
 1111 (15) - 0101 (5) = 1010 (10)
 
+## Bitwise operations: Logical operations
+The rule for bitwise operations would be 
 
-#### 4-bit AND operator 
+``` md 
+Every bit of A operates with the corresponding bit of B
+```
+so for a 4-bit input. The pairs of A and B (A0 B0, A1 B1, A2 B2, A3 B3) 
 
-#### 4-bit OR operator 
+Each pair will go through the same gate.
+
+
+### 4-bit AND operator 
+For this bitwise operation, the boolean operation will be: 
+
+```md 
+R = A AND B
+```
+![alt text](image-1.png)
+
+### 4-bit OR operator 
+The OR bitwise operator will have the boolean operations: 
+
+```md 
+R = A OR B
+```
+![alt text](image-3.png)
