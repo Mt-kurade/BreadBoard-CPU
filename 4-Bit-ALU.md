@@ -19,3 +19,12 @@ The Multiplexer (or MUX) simply selects which of the results from the calculatio
 
 The gates outside the multiplexer perform different logical operatiosn on A and B simultaneously. Their outputs are connected to the MUX, which selects one results accoridng to the control inputs (S0 and S1)
 
+### 4-bit ALU 
+Now that an understanding of the relative functionality of a 1-bit ALU is established, its time to diverge into understanding the building and functionality of 4-bit ALU. For this specific ALU design, there are two logical bitwise operators (AND, OR), and two arithemtic operators (Addition and Substraction).
+
+#### 4-Bit adder (Arithmetic operation of addition)
+An adder added elements bitwise, however the carry function that can be seen in decimal addition is applied here. The sum and difference are two outputs of each operation. 
+
+Building the 4-bit adder is a combination of 1 half adder, and 3 full adders.
+
+![alt text](image.png) (Built using Circuit verse)
