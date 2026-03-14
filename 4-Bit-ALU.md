@@ -28,3 +28,13 @@ An adder added elements bitwise, however the carry function that can be seen in 
 Building the 4-bit adder is a combination of 1 half adder, and 3 full adders.
 
 ![alt text](image.png) (Built using Circuit verse)
+
+from the above example, you can see that the design is able to execute binary addition. 
+0110 (6) + 1000 (8) = 1110 (14) 
+
+#### 4-bit Subtractor (Arithmetic operation of subtraction)
+
+
+#### 4-bit AND operator 
+
+#### 4-bit OR operator 
