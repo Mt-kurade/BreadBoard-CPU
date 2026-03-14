@@ -70,3 +70,7 @@ The OR bitwise operator will have the boolean operations:
 R = A OR B
 ```
 ![alt text](image-3.png)
+
+## 1. ALU Input design 
+The complete input processing design for the 4-bit ALU is as below. 
+![alt text](image-4.png)
